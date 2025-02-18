@@ -89,6 +89,7 @@ proxy-groups:
   - {name: 🎮 游戏平台, <<: *a3}
   - {name: 🆎 AdBlock, type: select, proxies: [REJECT]}
   - {name: 🐟 兜底分流, <<: *a3}
+  - {name:  emby, <<: *a3}
 
 #节点分组
   - {name: ♻️ 自动选择, <<: *a4}
